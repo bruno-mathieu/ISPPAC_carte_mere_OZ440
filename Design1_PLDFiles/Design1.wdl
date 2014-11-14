@@ -1,0 +1,9 @@
+%MASTERCLOCKMULT = 1;
+%SMALLESTUNIT    = 6;
+%AUTOASSIGN      = 1;
+%DECIMALS        = 0;
+%ENDTIME         = 100000;
+CLK_IN { A In Default None 0 1 50 } = (0   2 1   2) #25000;
+$ = ;
+RESET { A In Default None 0 1 50 } =  0 7 1 99993;
+AGOOD { A In Default None 0 1 50 } =  0 2500 1 97500;
